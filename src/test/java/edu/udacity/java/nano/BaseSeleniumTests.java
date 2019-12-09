@@ -4,15 +4,14 @@ package edu.udacity.java.nano;
 https://stackoverflow.com/questions/54599169/how-to-configure-selenium-webdriver-with-spring-boot-for-ui-testing
 */
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import java.io.File;
 import java.net.URL;
 import java.util.Objects;
 
@@ -23,9 +22,11 @@ public abstract class BaseSeleniumTests {
 
     @Before
     public void setUp() {
-        String driverFile = findFile();
+        // String driverFile = findFile();
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
-        ChromeDriverService service = new ChromeDriverService.Builder().usingDriverExecutable(new File(driverFile)).build();
+        // ChromeDriverService service = new ChromeDriverService.Builder().usingDriverExecutable(new File(driverFile)).build();
+
+
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox"); // Bypass OS security model, MUST BE THE VERY FIRST OPTION
         options.addArguments("--headless");
@@ -36,8 +37,9 @@ public abstract class BaseSeleniumTests {
         options.addArguments("--disable-gpu"); // applicable to windows os only
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
         options.merge(capabilities);
-        this.driver = new ChromeDriver(service, options);
-
+        // this.driver = new ChromeDriver(service, options);
+        WebDriverManager.chromedriver().setup();
+        this.driver = new ChromeDriver(options);
     }
 
     private String findFile() {

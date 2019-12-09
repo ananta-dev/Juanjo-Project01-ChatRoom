@@ -155,27 +155,22 @@
            change page to chat page (including name) */
 
         var theUsername = document.getElementById('username').value.trim();
+
+        if (!theUsername)
+            theUsername = "Anonymous user";
+
         window.location.href = 'http://localhost:8080/index?username=' + encodeURIComponent(theUsername);
     }
 
     /**
      * Enter to login.
      */
-    document.onkeydown = function (event) {
-        var e = event || window.event || arguments.callee.caller.arguments[0];
-        e.keyCode === 13 && login();
-    };
-
-    /** document.onkeydown = function (event) {
-        var e = event || window.event || arguments.callee.caller.arguments[0];
-        if (e.keycode === 13) {
-            var theUsername = document.getElementById('username').value.trim();
-            window.location.href = 'http://localhost:8080/index?username=' + encodeURIComponent(theUsername);
+    $("input").keypress(function(event) {
+        if (event.which == 13) {
+            event.preventDefault();
+            login();
         }
-
-    }; */
-
-
+    });
 </script>
 
 
