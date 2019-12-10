@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="922d396a-90dc-44ca-9064-7cf2e1fdd37d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/BaseSeleniumTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/BaseSeleniumTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/WebSocketChatApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/WebSocketChatApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/udacity/java/nano/WebSocketChatApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/udacity/java/nano/WebSocketChatApplicationTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/WebSocketChatApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="1364">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -86,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/BaseSeleniumTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
+            <state relative-caret-position="946">
               <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
@@ -137,7 +128,23 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chatroom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Chatroom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1928" />
     <option name="y" value="-431" />
     <option name="width" value="1936" />
@@ -226,6 +233,11 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nano" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Juanjo-Project01-ChatRoom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Juanjo-Project01-ChatRoom" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -337,24 +349,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WebSocketChatApplicationTest - 2019.12.09 at 23h 51m 58s.xml">
-      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebSocketChatApplicationTest_chat - 2019.12.09 at 23h 55m 50s.xml">
-      <configuration name="WebSocketChatApplicationTest.chat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebSocketChatApplicationTest_chat - 2019.12.10 at 00h 05m 51s.xml">
-      <configuration name="WebSocketChatApplicationTest.chat" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 11m 39s.xml">
-      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 20m 08s.xml">
-      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 23m 24s.xml">
-      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 27m 55s.xml">
       <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
     </history-entry>
@@ -367,16 +361,35 @@
     <history-entry file="WebSocketChatApplicationTest_leave - 2019.12.10 at 00h 47m 36s.xml">
       <configuration name="WebSocketChatApplicationTest.leave" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 48m 30s.xml">
+      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 50m 53s.xml">
+      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 54m 01s.xml">
+      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 55m 30s.xml">
+      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 56m 33s.xml">
+      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WebSocketChatApplicationTest - 2019.12.10 at 00h 57m 13s.xml">
+      <configuration name="WebSocketChatApplicationTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-431" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12953092" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.32409382" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32936078" />
@@ -390,13 +403,13 @@
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info active="true" anchor="right" x="509" y="166" width="434" height="611" id="Run" order="8" visible="true" weight="0.63965887" />
+      <window_info active="true" anchor="right" x="509" y="166" width="434" height="611" id="Run" order="8" visible="true" weight="0.43123668" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -442,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/BaseSeleniumTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -456,10 +462,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/BaseSeleniumTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/udacity/java/nano/WebSocketChatApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="1364">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>

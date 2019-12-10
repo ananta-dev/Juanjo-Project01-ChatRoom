@@ -44,6 +44,7 @@ public class WebSocketChatApplicationTest extends BaseSeleniumTests {
         Assert.assertTrue("Text not found!", enterText.contains("joined the chat"));
         Assert.assertTrue("Text not found!", chatnumText.contains("1"));
     }
+
     @Test
     public void chat() {
         this.driver.get("http://localhost:8080/index?username=Juanjo");
@@ -60,31 +61,13 @@ public class WebSocketChatApplicationTest extends BaseSeleniumTests {
         Assert.assertTrue("Text not found!", msgText.contains("Hi all!"));
     }
 
-/*    @Test
+    @Test
     public void leave() {
         this.driver.get("http://localhost:8080/index?username=Juanjo");
         WebElement leaveElement = this.driver.findElement(By.className("mdui-btn-icon"));
         leaveElement.click();
-
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement myDynamicElement;
-        myDynamicElement = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
-
-        Assert.assertEquals(this.driver.getTitle(), "Chat Room Login");
-        this.driver.close();
-
-/*        WebElement myDynamicElement = (new WebDriverWait(driver, 10))
-                .until(ExpectedConditions.presenceOfElementLocated(By.className("mdui-btn-icon")));
-
-
-        // Check that we are back in the login page
-        myDynamicElement = (new WebDriverWait(driver, 10))
-                .until(ExpectedConditions.presenceOfElementLocated(By.className("message-content-leave")));
-        WebElement inputElement = this.driver.findElement(By.id("username"));
         WebElement submitElement = this.driver.findElement(By.className("submit"));
-        Assert.assertNotNull(inputElement);
-        Assert.assertNotNull(submitElement); */
-
+        Assert.assertEquals(this.driver.getTitle(), "Chat Room Login");
+        Assert.assertNotNull(submitElement);
     }
-
-// }
+}
